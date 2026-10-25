@@ -25,3 +25,12 @@ In `index.html`, find the card with the class `card--soon` in the `#catalog` sec
 
 - Team members and a contact email or social links (the page currently links only to https://github.com/tenangsquad).
 - A custom domain, if you want one.
+
+## Running and hosting
+
+- **Locally:** open `index.html` in a browser, or serve the folder with `npx serve .` or `python -m http.server`.
+- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main` / root. The site is then served at `tenangsquad.github.io/TenangSquad/`. All paths are relative, so it works from that sub-folder.
+
+## About the profile README
+
+This repo is named `TenangSquad`, the same as the account, so GitHub shows its root `README.md` on the profile page. That file is the profile README. These site notes live here instead.
