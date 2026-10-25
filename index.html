@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tenang Squad — Calm hands, chaotic games</title>
+<meta name="description" content="Tenang Squad is an indie game squad (est. 2022) making cozy, chaotic, Malaysian-flavoured games you can play in your browser. Now playing: ABANG CC: 2007.">
+<meta name="theme-color" content="#0a1534">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tenang Squad — Calm hands, chaotic games">
+<meta property="og:description" content="Indie game squad, est. 2022. Now playing in your browser: ABANG CC: 2007, run a cozy cyber café in Malaysia.">
+<meta property="og:image" content="img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="img/logo-round.png">
+<link rel="apple-touch-icon" href="img/logo-round.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a class="brand" href="#top" aria-label="Tenang Squad, home">
+      <img src="img/logo-round.png" alt="" width="44" height="44">
+      <span>Tenang <b>Squad</b></span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Menu"><span></span></button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#game">Now Playing</a></li>
+      <li><a href="#how">How It Plays</a></li>
+      <li><a href="#catalog">Our Games</a></li>
+      <li><a href="#studio">About Us</a></li>
+      <li><a class="btn" href="play/abang-cc/index.html">Play free</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero__grid">
+    <div>
+      <span class="eyebrow">Indie game squad · est. 2022</span>
+      <h1>Calm hands.<br><em>Chaotic
+        <svg viewBox="0 0 300 20" preserveAspectRatio="none" aria-hidden="true"><path d="M4 14 C 70 2, 190 2, 296 12"/></svg>
+      </em> games.</h1>
+      <p class="hero__lead">We're Tenang Squad. <strong>Tenang</strong> means <em>calm</em> in Malay, and we make cozy, funny, proudly Malaysian games that you can open in your browser and start playing in seconds. No download. No sign-up.</p>
+      <div class="hero__cta">
+        <a class="btn btn--lg" href="play/abang-cc/index.html">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z"/></svg>
+          Play ABANG CC: 2007
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#studio">About us</a>
+      </div>
+      <ul class="hero__meta">
+        <li><i></i>Plays in your browser</li>
+        <li><i></i>Desktop &amp; phone</li>
+        <li><i></i>Free to play</li>
+      </ul>
+    </div>
+
+    <div class="hero__art" aria-hidden="true">
+      <span class="ring"></span><span class="ring"></span><span class="ring"></span>
+      <img class="hero__logo" src="img/logo-round.png" alt="" width="512" height="512">
+      <img class="hero__shot" src="img/shots/22_home_new.png" alt="" width="1366" height="768">
+      <div class="hero__badge"><small>Now playing</small><b>ABANG CC: 2007</b> · Alpha 0.13</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>Seat the customers</span><span>Fix the crashing PCs</span><span>Catch the cheaters</span><span>Survive the blackout</span><span>Hit the daily target</span>
+    <span>Seat the customers</span><span>Fix the crashing PCs</span><span>Catch the cheaters</span><span>Survive the blackout</span><span>Hit the daily target</span>
+  </div>
+</div>
+
+<!-- ============ FEATURED GAME ============ -->
+<section class="section section--dark" id="game">
+  <div class="wrap">
+    <div class="game">
+      <div class="reveal">
+        <div class="frame">
+          <div class="frame__bar"><i></i><i></i><i></i><span>tenangsquad · abang-cc</span></div>
+          <div class="frame__screen"><img id="shot" src="img/shots/01_scene_afternoon.png" alt="Abang's cyber café on a sunny afternoon, with three PCs and the counter" width="1366" height="768"></div>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Game screenshots">
+          <button class="tab" role="tab" aria-selected="true" data-src="img/shots/01_scene_afternoon.png" data-cap="A calm afternoon. Three PCs, one counter, and Abang waiting for the first customer." data-alt="Abang's café on a sunny afternoon">Siang</button>
+          <button class="tab" role="tab" aria-selected="false" data-src="img/shots/17_ten_pcs_busy.png" data-cap="Peak hour on day 6: ten PCs, a queue out the door, and the target still 48% away." data-alt="A busy café with ten PCs and a queue of customers">Peak hour</button>
+          <button class="tab" role="tab" aria-selected="false" data-src="img/shots/11_night.png" data-cap="The shop changes with the clock. After dark the late-night crowd shows up." data-alt="The café at night, lit in blue">Malam</button>
+          <button class="tab" role="tab" aria-selected="false" data-src="img/shots/13_blackout.png" data-cap="Blackout! Every PC dies and the clock stops. Run to the fuse box before the customers walk out." data-alt="A blackout event with a countdown banner">Blackout</button>
+          <button class="tab" role="tab" aria-selected="false" data-src="img/shots/14_pc_menu.png" data-cap="Tap a broken PC and the options pop up right next to it. Restart, repair, cool down." data-alt="The action menu next to a PC">Fix a PC</button>
+          <button class="tab" role="tab" aria-selected="false" data-src="img/shots/07_perk_draft.png" data-cap="After every good day, pick one of two upgrades. Every perk has a downside." data-alt="The perk selection screen">Pick a perk</button>
+        </div>
+        <p class="caption" id="caption" aria-live="polite">A calm afternoon. Three PCs, one counter, and Abang waiting for the first customer.</p>
+      </div>
+
+      <div class="game__info reveal" style="--d:.12s">
+        <span class="pill"><i></i>Playable now · Alpha 0.13</span>
+        <h2>ABANG <span>CC</span>: 2007</h2>
+        <p class="game__tag">Run a cozy cyber café in Malaysia, 2007.</p>
+        <p>You're Abang, owner of a tiny <em>kedai siber</em>. Seat the customers, keep the PCs alive, and make the daily target before closing time. Sounds easy. Then the blackout hits.</p>
+        <ul class="checks">
+          <li>A real-time management game with a 3D cartoon look</li>
+          <li>Every perk helps, and every perk has a downside</li>
+          <li>Short sessions: a day takes only a few minutes</li>
+          <li>Progress saves automatically in your browser</li>
+        </ul>
+        <div class="game__cta">
+          <a class="btn btn--lg" href="play/abang-cc/index.html">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5z"/></svg>
+            Mula Main
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#how">How it plays</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat"><b>9</b><span>customer types, from Pakcik Internet to Kaki LAN</span></div>
+      <div class="stat"><b>9</b><span>special events, including blackouts and inspectors</span></div>
+      <div class="stat"><b>13</b><span>upgrade perks, each with a catch</span></div>
+      <div class="stat"><b>1<em>-click</em></b><span>from link to playing. Nothing to install.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT PLAYS ============ -->
+<section class="section section--light" id="how">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <span class="eyebrow">How it plays</span>
+      <h2>Easy to learn. Hard to keep calm.</h2>
+      <p>Day 1 is a gentle tutorial. After that, the café gets busier, the PCs get moodier, and the customers get less patient.</p>
+    </div>
+
+    <div class="steps">
+      <article class="step reveal">
+        <div class="step__icon" aria-hidden="true">🧑‍💻</div>
+        <h3>Seat your customers</h3>
+        <p>Tap a customer, pick 30, 60 or 90 minutes, then tap a glowing PC. Or double-tap to seat them in one go.</p>
+      </article>
+      <article class="step reveal" style="--d:.08s">
+        <div class="step__icon" aria-hidden="true">🔧</div>
+        <h3>Fix what breaks</h3>
+        <p>Crashes, frozen screens, a PC on fire. Tap the problem and send Abang over before the customer storms off.</p>
+      </article>
+      <article class="step reveal" style="--d:.16s">
+        <div class="step__icon" aria-hidden="true">🕵️</div>
+        <h3>Handle the trouble</h3>
+        <p>Suspicious browsing, loud videos, a fight at PC 5. Talk nicely, or accuse and risk being wrong.</p>
+      </article>
+      <article class="step reveal" style="--d:.24s">
+        <div class="step__icon" aria-hidden="true">⬆️</div>
+        <h3>Upgrade your shop</h3>
+        <p>Hit the target and choose a perk: more PCs, an aircond, a generator. Each one comes with a downside.</p>
+      </article>
+    </div>
+
+    <div class="cast reveal">
+      <p class="cast__label">A few regulars you'll meet</p>
+      <span class="chip">👓 Pakcik Internet</span>
+      <span class="chip">🎮 Kaki FPS</span>
+      <span class="chip">🔥 Kaki Panas Baran</span>
+      <span class="chip">📚 Student Assignment</span>
+      <span class="chip">🐉 Kaki MMORPG</span>
+      <span class="chip">🪙 Budak RM1</span>
+      <span class="chip">💬 Kaki MIRC</span>
+      <span class="chip">🌙 Lepak Sampai Pagi</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section section--deep" id="features">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">Why it's fun</span>
+      <h2>Small team. Big attention to detail.</h2>
+      <p>The kind of details you only get when you've actually spent too many late nights in a kedai siber.</p>
+    </div>
+
+    <div class="features">
+      <article class="feature reveal">
+        <div class="feature__ico" aria-hidden="true">🛵</div>
+        <h3>Proudly local</h3>
+        <p>RM1 for 30 minutes. MIRC chat. Mamak 24J next door. The jokes, the names and the vibes come from home.</p>
+      </article>
+      <article class="feature reveal" style="--d:.08s">
+        <div class="feature__ico" aria-hidden="true">⚖️</div>
+        <h3>Choices with consequences</h3>
+        <p>Accuse the wrong customer and your reputation takes the hit. Every perk helps and every perk costs you something.</p>
+      </article>
+      <article class="feature reveal" style="--d:.16s">
+        <div class="feature__ico" aria-hidden="true">🌅</div>
+        <h3>A café that feels alive</h3>
+        <p>Golden hour, night shifts, passing motorbikes, crickets and a tiny looping tune that gets moodier after dark.</p>
+      </article>
+      <article class="feature reveal">
+        <div class="feature__ico" aria-hidden="true">🎩</div>
+        <h3>Collect and keep</h3>
+        <p>Clear milestone days to unlock hats for Abang. They stay yours, even if you start a brand new run.</p>
+      </article>
+      <article class="feature reveal" style="--d:.08s">
+        <div class="feature__ico" aria-hidden="true">🎚️</div>
+        <h3>Your pace</h3>
+        <p>Three difficulty levels: Santai, Biasa and Mencabar. Pause any time, or let the game pause itself when you switch tabs.</p>
+      </article>
+      <article class="feature reveal" style="--d:.16s">
+        <div class="feature__ico" aria-hidden="true">⚡</div>
+        <h3>Zero friction</h3>
+        <p>It's a web game. Open the link, click Mula Main and you're running a café. It's built without any engine or library.</p>
+      </article>
+    </div>
+
+    <div class="phone reveal">
+      <div>
+        <span class="eyebrow">On your phone too</span>
+        <h3 style="margin-top:14px">Turn it sideways and play.</h3>
+        <p>On a phone the game switches to its own landscape layout: the whole café fills the screen, with the queue and Abang's jobs tucked into the corners. Same game, same save.</p>
+      </div>
+      <img src="img/shots/09_phone_landscape.png" alt="ABANG CC: 2007 on a phone held sideways" loading="lazy" width="1100" height="500">
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATALOG ============ -->
+<section class="section section--light" id="catalog">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <span class="eyebrow">Our games</span>
+      <h2>One out the door. More in the workshop.</h2>
+      <p>We make one game at a time and we try to do it properly. Here's what we've shipped and where we're headed.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__media">
+          <img src="img/shots/15_loading_screen.png" alt="The ABANG CC: 2007 loading screen, a colourful Malaysian shophouse street at dusk" loading="lazy" width="1366" height="768">
+          <span class="card__tag">Playable · Alpha 0.13</span>
+        </div>
+        <div class="card__body">
+          <h3>ABANG CC: 2007</h3>
+          <p>Run a cozy cyber café in Malaysia, 2007. Seat the customers, fix the crashing PCs, catch the cheaters and survive the blackout.</p>
+          <div class="card__meta"><span>Management</span><span>3D cartoon</span><span>Browser</span><span>Desktop + phone</span></div>
+          <a class="btn btn--navy" href="play/abang-cc/index.html">Play now →</a>
+        </div>
+      </article>
+
+      <article class="card card--soon reveal" style="--d:.1s">
+        <div class="card__media">
+          <img src="img/logo-round.png" alt="" loading="lazy" width="512" height="512">
+          <span class="card__tag">Coming later</span>
+        </div>
+        <div class="card__body">
+          <h3>Game #2: not yet announced</h3>
+          <p>The squad is already sketching the next one. We'll show it here first, so keep an eye on this space (and on our GitHub).</p>
+          <div class="card__meta"><span>In the workshop</span><span>Details soon</span></div>
+          <a class="btn btn--ghost" href="https://github.com/tenangsquad" rel="noopener">Follow on GitHub →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT US ============ -->
+<section class="section section--deep" id="studio">
+  <div class="wrap">
+    <div class="studio">
+      <div class="studio__side reveal">
+        <div class="studio__logo">
+          <img src="img/logo-round.png" alt="Tenang Squad badge: a game controller with a headset, est. 2022" loading="lazy" width="512" height="512">
+        </div>
+        <!-- a little character sheet, because of course -->
+        <div class="sheet" role="group" aria-label="Squad profile">
+          <div class="sheet__title">Profil Squad <small>Lv. 99</small></div>
+          <div class="bar"><span>Umur</span><i style="--v:97%"></i><b>29.9 / 30</b></div>
+          <div class="bar"><span>Dulu: Pemain</span><i style="--v:100%"></i><b>✔ Tamat</b></div>
+          <div class="bar"><span>Sekarang: Pencipta</span><i style="--v:100%"></i><b>✔ Aktif</b></div>
+          <div class="bar"><span>Semangat</span><i style="--v:99%"></i><b>99 / 99</b></div>
+          <div class="bar bar--low"><span>Stamina</span><i style="--v:38%"></i><b>Perlu kopi ☕</b></div>
+        </div>
+      </div>
+
+      <div class="reveal" style="--d:.1s">
+        <span class="eyebrow">Tentang Kami · About us</span>
+        <h2>Sekumpulan <span class="mark">'almost'<svg viewBox="0 0 200 14" preserveAspectRatio="none" aria-hidden="true"><path d="M3 9 C 50 2, 140 2, 197 8"/></svg></span> 30an.</h2>
+        <p class="studio__motto">Dulu bermain. Sekarang mencipta.</p>
+        <p class="studio__lead"><strong>Tenang Squad</strong> ialah geng kawan-kawan yang dulu kerjanya <em>"satu round lagi"</em> sampai subuh. Rage quit, rebut PC paling hujung, bergaduh pasal siapa yang hogging. Sekarang umur dah <strong>'almost' 30an</strong>: belakang mula sakit, tapi semangat masih level 99.</p>
+        <p class="studio__lead">Daripada kutip markah dalam game orang lain, kami mula bina game sendiri. Bukan sebab nak jadi hebat, tapi sebab <strong>seronok</strong>. <em>Tenang</em> pun maksudnya santai, jadi kami buat game yang santai tapi tetap bikin hati berdebar. Dah rasa blackout dalam Abang CC, kan?</p>
+        <p class="studio__en">In English: a squad of almost-30-somethings. We used to play, now we make. Come and enjoy it with us.</p>
+        <ul class="values">
+          <li><b>Dulu pemain</b><span>Kami tahu rasa bila game tak adil. Sebab tu kami cuba buat yang adil.</span></li>
+          <li><b>Sekarang pencipta</b><span>Dari idea sampai butang terakhir, kami buat sendiri.</span></li>
+          <li><b>Santai tapi kemas</b><span>Nampak ringan, tapi ada pilihan sebenar di belakangnya.</span></li>
+          <li><b>Lebih seronok berkawan</b><span>Game paling best bila ada geng. Ajak kawan, ajak famili.</span></li>
+        </ul>
+        <p class="studio__cheer">Enjoy Bersama! <span aria-hidden="true">🎮</span></p>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="tl reveal"><time>2022 · Dulu</time><h4>Geng terbentuk</h4><p>Lepak main game sama-sama. Tenang Squad pun lahir.</p></div>
+      <div class="tl reveal" style="--d:.1s"><time>Sekarang</time><h4>Mula mencipta</h4><p>ABANG CC: 2007 dah boleh dimain dalam browser, dan masih kami asah.</p></div>
+      <div class="tl tl--next reveal" style="--d:.2s"><time>Seterusnya</time><h4>Game #2</h4><p>Ada sesuatu yang tengah dimasak. Tunggu ya.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOIN ============ -->
+<section class="section section--dark" id="join">
+  <div class="wrap">
+    <div class="join reveal">
+      <h2>Come hang out at the kedai.</h2>
+      <p>Play the game, tell us what broke, tell us what you loved. Feedback shapes what we build next. Interested in working with the squad? Get in touch on GitHub.</p>
+      <div class="hero__cta">
+        <a class="btn btn--lg" href="play/abang-cc/index.html">Play ABANG CC: 2007</a>
+        <a class="btn btn--ghost btn--lg" href="https://github.com/tenangsquad" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__in">
+      <a class="brand" href="#top"><img src="img/logo-round.png" alt="" width="52" height="52"><span>Tenang <b>Squad</b></span></a>
+      <ul>
+        <li><a href="#game">Now Playing</a></li>
+        <li><a href="#catalog">Our Games</a></li>
+        <li><a href="#studio">About Us</a></li>
+        <li><a href="https://github.com/tenangsquad" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+    <div class="footer__fine">
+      <span>© <span id="year">2026</span> Tenang Squad · est. 2022</span>
+      <span>Made with ☕ and too many late nights at the kedai siber.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
